@@ -2,7 +2,9 @@ dependencies = ['torch', 'dp']
 
 def phonemizer():
     import torch
+    import os
     from dp.phonemizer import Phonemizer
+    
     # Download
     hub_dir = torch.hub.get_dir()
     model_dir = os.path.join(hub_dir, 'checkpoints')
