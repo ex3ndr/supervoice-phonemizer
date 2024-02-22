@@ -1,4 +1,4 @@
-dependencies = ['torch', 'deep-phonemizer']
+dependencies = ['torch', 'dp']
 
 def phonemizer():
     import torch
