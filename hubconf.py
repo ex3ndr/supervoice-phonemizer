@@ -1,6 +1,6 @@
 dependencies = ['torch', 'deep-phonemizer']
 
-def bigvsan():
+def phonemizer():
     import torch
     from dp.phonemizer import Phonemizer
     # Download
